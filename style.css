@@ -1,0 +1,532 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('2531137-ilustracao-de-vista-do-riacho-montanhas-ceu-e-floresta-de-pinheiros-gratis-vetor.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+@media (min-width: 999px) {
+  body {
+    margin-left: 20vh;
+    margin-right: 20vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    margin-left: 30vh;
+    margin-right: 30vh;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    margin-left: 40vh;
+    margin-right: 40vh;
+  }
+}
+
+.amazparte1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://amazonia2030.org.br/wp-content/uploads/2022/08/Depositphotos_573639906_XL-scaled.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.amazparte1text {
+  background-color: #2d4918;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #9c9c9c;
+  padding: 20px;
+}
+
+footer p{
+  font-family: arial;
+  text-align: center;
+}
+
+hr {
+  height: 10px;
+  background-color: #313131;
+  border-color: #000000;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.hr2 {
+  height: 5px;
+  box-shadow: none;
+  background-color: #3c8526;
+  border-color: #000000;
+}
+
+.amazlink a{
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
+  text-decoration: none;
+  font-family: Beginnings;
+  z-index: 10;
+  font-size: 25px;
+  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.amazlink a:hover {
+  opacity: 0.7;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-list a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  display: flex;
+}
+
+.ifmg-logo {
+  filter: brightness(0) invert(1);
+  width: 60px;
+  height: 80px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #3b5e1f;
+  height: 10vh;
+  z-index: 10;
+}
+
+.parte1 {
+  background-image: url('2531137-ilustracao-de-vista-do-riacho-montanhas-ceu-e-floresta-de-pinheiros-gratis-vetor.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 15px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+@font-face {
+  font-family: Beginnings;
+  src: url('DK New Beginnings.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Nexa;
+  src: url('Nexa-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Play;
+  src: url('Play Story.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.parte1 h1 {
+  padding-top: 10vh;
+  margin-left: 10vh;
+  font-family: 'Beginnings';
+  font-size: 60px;
+}
+
+.parte1 img {
+  align-items: left;
+  width: 40vh;
+  left: 0;
+  transition: .2s;
+}
+
+.parte1 img:hover {
+  transform: scale(.9);
+}
+
+.parte1 p {
+  margin-left: 10vh;
+  font-family: Beginnings;
+  font-size: 25px;
+}
+
+.parte2 {
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 15px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.parte2 h1 {
+  padding-top: 3vh;
+  font-family: Play;
+  font-size: 50px;
+}
+
+.parte3 img {
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.parte3 h4 {
+  font-family: Beginnings;
+  font-size: 20px;
+}
+
+.parte3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to top, #b6b6b6, #ffffff);
+  box-shadow: 15px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.icones-img img{
+  margin: 20px;
+  transition: 0.5s;
+}
+
+.icones-img img:hover {
+  transform: scale(1.15);
+
+}
+
+header {
+  position: static;
+  top: 0;
+  box-shadow: 5px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  z-index: 10;
+}
+
+.nav-list a {
+  font-family: Beginnings;
+  z-index: 10;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  z-index: 10;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.mobile-menu.active {
+  background-color: #3b5e1f;
+  z-index: 10;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #2d4918;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(-115%);
+    transition: transform 0.3s ease-in;
+    z-index: 10;
+  }
+
+  .nav-list.active {
+    background-color: #2d4918;
+  }
+
+  .nav-list.active {
+    transform: translateY(0);
+  }
+
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .nav-list.active li {
+    opacity: 1;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 768px) {
+  .parte3 {
+    padding: 20px;
+  }
+
+  .icones-img {
+    margin: 10px;
+  }
+
+  .parte3 img {
+    height: 80px;
+  }
+}
+
+.parte1sobreanimais {
+  background: linear-gradient(to top, #b6b6b6, #ffffff);
+}
+
+.parte1sobreanimais img {
+  border-radius: 40px;
+  height: 50vh;
+  object-fit: contain;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.parte1sobreanimais h1 {
+  font-size: 50px;
+  font-family: Nexa;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.parte1sobreanimais p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Arial;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.parte2aves {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.parte2aves h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: Nexa;
+}
+
+.parte2aves p {
+  text-align: justify;
+  padding-top: 30px;
+  font-family: Arial;
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+/* -------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 80vh;
+  width: 100%;
+}
+
+.wrapper,
+.slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+.slide {
+  overflow: hidden;
+  z-index: 9;
+}
+
+.slide::before {
+  content: "";
+  position: absolute;
+  height: 80.5vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+
+.slide .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 9;
+}
+
+.slide .image-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+.image-data span.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.image-data h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #333;
+  background: #fff;
+  text-decoration: none;
+  margin-top: 25px;
+  transition: all 0.3s ease;
+}
+
+a.button:hover {
+  color: #fff;
+  background-color: #c87e4f;
+  z-index: 9;
+}
+
+.nav-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 9;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 9;
+}
+
+.swiper-button-next {
+  right: 50px;
+  z-index: 9;
+}
+
+.swiper-button-prev {
+  left: 50px;
+  z-index: 9;
+}
+
+.nav-btn::before,
+.nav-btn::after {
+  font-size: 25px;
+  color: #fff;
+  z-index: 9;
+}
+
+.swiper-pagination-bullet {
+  opacity: 1;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  visibility: hidden;
+  transform: translateY(-210px);
+  z-index: 2;
+}
+
+.swiper-pagination-bullet-active {
+  border: 2px solid #fff;
+  background-color: #c87e4f;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    visibility: hidden;
+  }
+
+  .swiper-pagination-bullet {
+    visibility: visible;
+    z-index: 2;
+  }
+}
